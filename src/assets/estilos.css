@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: grey;
+}
+
+.btn-primario {
+  text-align: center;
+  border-radius: 3px;
+  padding: 5px 20px;
+  margin: 0 10px;
+  font-weight: 600;
+  border: 2px solid white;
+
+  color: white;
+  background: transparent;
+}
+
+.btn-secundario {
+  text-align: center;
+  border-radius: 3px;
+  padding: 5px 20px;
+  margin: 0 10px;
+  font-weight: 600;
+  border: 2px solid white;
+
+  background: white;
+  color: #41d3be;
+}
+
+.titulo {
+  color: grey;
+  padding: 25px 0;
+}
+
+.cabecalho {
+  background-color: #41d3be;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15vw;
+  height: 10vh;
+  align-items: center;
+}
+
+.container {
+  background-color: #f1f1f1;
+  min-height: 90vh;
+  padding: 0px 15vw;
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.imagem-logo {
+  height: 50px;
+  width: 50px;
+}
+
+.imagem-icone {
+  height: 25px;
+  width: 25px;
+}
+
+.btn {
+  margin: 15px auto 0px auto;
+  display: block;
+  border-radius: 20px;
+  background-color: #41d3be;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.04);
+  padding: 20px;
+  width: 48%;
+}
+
+.saldo {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.detalhe {
+  color: #41d3be;
+  font-size: 24px;
+}
+
+@media (max-width: 800px) {
+  .box {
+    width: 95%;
+    margin: 5px;
+  }
+
+  .conteudo {
+    flex-direction: column;
+  }
+}
